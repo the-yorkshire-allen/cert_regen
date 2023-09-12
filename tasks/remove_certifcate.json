@@ -1,0 +1,16 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "private": true,  
+  "description": "A task to perform puppet cert clean and purge",
+  "parameters": {
+    "agent_certnames": {
+      "description": "A space-separated list of agent certificate names",
+      "type": "Pattern[/^([A-Za-z0-9._-]+ ?)+$/]"
+    },
+    "purge_data": {
+      "description": "Should the node's data be purged?",
+      "type": "Boolean"
+    }
+  }
+}

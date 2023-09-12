@@ -1,0 +1,8 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "private": true,  
+  "description": "Backup ssl folder and launch puppet agent run as background process",
+  "parameters": {
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "private": true,
+  "description": "Clean up the Puppet agent's old SSL directory",
+  "parameters": {
+  }
+}
