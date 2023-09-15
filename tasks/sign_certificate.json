@@ -1,0 +1,12 @@
+{
+    "puppet_task_version": 1,
+    "supports_noop": false,
+    "description": "A short description of this task",
+    "private": true,
+    "parameters": {
+      "agent_certname": {
+        "description": "A space-separated list of agent certificate names",
+        "type": "Pattern[/^([A-Za-z0-9._-]+ ?)+$/]"
+      }
+    }
+  }
